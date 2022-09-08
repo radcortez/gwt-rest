@@ -1,0 +1,8 @@
+<!DOCTYPE module SYSTEM
+    "http://google-web-toolkit.googlecode.com/svn/releases/1.6/distro-source/core/src/gwt-module.dtd">
+
+<module>
+    <inherits name='com.google.gwt.user.User'/>
+
+    <servlet path="/rest" class="com.radcortez.gwt.rest.server.GwtRestServlet"/>
+</module>
